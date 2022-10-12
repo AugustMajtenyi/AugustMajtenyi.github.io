@@ -1,0 +1,173 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+	<head>
+		<title>August's Website's Food Pantry Service Project Page</title>
+		<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	</head>
+	
+	<body>
+		<div id="Main">
+			<div class="Container">
+				<div id="Header">
+					<div id="Logo">
+						<h2>Logo</h2>
+					</div><!--end of Logo-->
+					
+					<div id="Title">
+						<h1>August Majtenyi</h1>
+					</div>
+					<div style="clear:both"></div>
+					<ul id="NavigationBar"> <!--the # should be where the link goes, currently to the top of the page)-->
+						<li><a href="index.html">About Me</a></li>
+						<li><a href="PortfolioPage.html">Portfolio</a></li>
+						<li><a href="TimelinePage.html#Present">Timeline</a></li>
+						<li><a href="index.html#Contact_Me">Contact Me</a></li>						
+					</ul>
+					<div style="clear:both"></div>
+				</div><!--end Header -->
+				<div class="Content">
+					<h2>Fantasy Football: Luck and Skill</h2>
+					<div id="FFLSOverviewPic" style="width: 800px; height: 353px; overflow: hidden">
+						<img src="images/FoodPantry/Overview2.jpg" alt="Overview Pic" width=800px height=800px>
+					</div>
+					<div id="FoodPantryOverviewText">
+						<h4><b>Context:  </b>I had previously written an article about <a href="https://pasca89.wixsite.com/afootballfantasy/post/luck-vs-skill-the-missing-link" target="_blank">the relationship between luck and skill in fantasy football</a>. I used data from the 2021 draft season in order to test my beliefs.</h4>
+						<h4><b>Objective:  </b>Use data from our league to demonstrate that 'shared knowledge' has greatly reduced the skill involved in fantasy football and greatly increased the relative affect of luck.</h4>						
+						<br/>
+					</div>
+				</div>
+			</div>
+			<div id=FFluckVskill_DarkDiv class="dark">
+				<div class="Container">
+					<div class="Content">
+						<div id=Context>
+							<h2>Previous Research</h2>
+							<h3>In our league, there is no relationship between time dedication and sucess.</h3>
+							<div id="FoodPantryInfographic" style="width: 800px; height: 654px; overflow: hidden;">
+                <iframe width="735" height="559" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQjy86sGpmDwuqWGF3CsPrRyKabUmpjThV4QtUhSVIYB1ATa4FNMsjgNzYer5mnH2z1rMMq95Hpsjzi/pubchart?oid=61001323&amp;format=interactive"></iframe>
+							</div>
+              <h4>I can show that time dedicated to our league showed no significant connection to historical win rates (Pearson Correlation of -0.19). The next step is to determine how shared knowledge plays a role in all of this.</h4>
+						</div>
+					</div> <!--End of Content-->
+				</div> <!--End of Container-->
+			</div> <!--End of DarkDiv-->
+			<div id=SharedKnowledge="light">
+			<div class="Container">
+					<div class="Content">
+						<div id=SharedKnowledgeChart >
+							<h2>Shared Knowledge</h2>
+							<div id=SharedKnowledgeChart1 style="width: 800px; height: 420px; overflow: hidden;">
+                 <iframe width="750" height="350" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSCq7f_dEO8ud4iNVPUMJecaXIi9B6vnlcgGoc1PvKSByq7yMNvFNsTYniLIW7Io--38nbxHvxdHlSn/pubchart?oid=379576125&amp;format=interactive"></iframe>
+							</div>
+							<h4>The chart above shows that preseason draft rankings are all very similar. However, they do a mediocre job of <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSCq7f_dEO8ud4iNVPUMJecaXIi9B6vnlcgGoc1PvKSByq7yMNvFNsTYniLIW7Io--38nbxHvxdHlSn/pubchart?oid=92259909&format=interactive" target="_blank">predicting actual performance</a>. Moreso, the chart below shows that no one ranking seems better than any other.</h4>
+							<div id=SharedKnowledgeChart1 style="width: 800px; height: 450px; overflow: hidden;">
+                  <iframe width="750" height="450" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSCq7f_dEO8ud4iNVPUMJecaXIi9B6vnlcgGoc1PvKSByq7yMNvFNsTYniLIW7Io--38nbxHvxdHlSn/pubchart?oid=210938289&amp;format=interactive"></iframe>							</div>
+							</br>
+              <h4>This is what I am referring to as 'shared knowledge'. Different fantasy football sources all disseminate nearly identical information. So why do GMs stray from these sources and are they succesfful?</h4>
+							</br>
+							<h3>Research Hypothesis</h3>
+							<h4>Fantasy Football GMs that stray from rankings (demonstrating a belief in skill seperate from shared knowledge) will not perform better than those that adhere to rankings</h4>
+						</div>
+					</div> <!--End of Content1-->
+				</div> <!--End of Container1-->
+			</div><!--End of Light Div-->
+			<div style="clear:both"></div>
+			<div id=FFluckVskillBadGraph_DarkDiv1 class="dark">
+				<div class="Container">
+					<div class="Content">
+						<div id=BadGraph>
+							<h2>The Relationship of Draft Adherence and Season Performance</h2>
+							<h4></h4>
+							<div id=BadGraph style="width: 800px; height: 555px; overflow: hidden;">
+                  <iframe width="750" height="500" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSCq7f_dEO8ud4iNVPUMJecaXIi9B6vnlcgGoc1PvKSByq7yMNvFNsTYniLIW7Io--38nbxHvxdHlSn/pubchart?oid=329421354&amp;format=interactive"></iframe>
+							</div>
+							<h3>Findings</h3>
+							<h4>From the chart above, one can see a positive correlation between a combined team FPPG and their similarity with Draft Rankings (greater than 0.7 in both cases). This data would reject my null and indeed support my belief that shared knowledge greatly reduces relative skill in Fantasy Football</h4>
+							</br>
+              <h4><b>Note: </b>The data is similar when comparing only starters and when considering Total Fantasy Points instead of FFPG.</h4>
+              </div>
+					</div> <!--End of Content-->
+				</div> <!--End of Container-->
+			</div> <!--End of DarkDiv1-->
+			<div id=CliffHanger_LightDiv2 class="light">
+				<div class="Container">
+					<div class="Content">
+						<div id=EndOfStory>
+							<h2>Findings</h2>
+              <h3><b>Null Hypothesis Rejected!</b></h3>
+							<h3>Research Limitations</h3>
+                <h4>Sample size was too small. These numbers should be compared with many more fantasy football leagues before any reasonable conclusions can be made.</h4>
+							  <h4>Our draft was held a month before the rankings were posted. Data was manipulated as best as possible to acknowledge this, but the full effects are unknown.</h3>
+							  <h4>Our league has slightly different rules and point calculations than the rankings assume. For more on this, see my work on <a href="FantasyFootball.html" target="_blank">Defensive Schemes</a></h4>
+             <h3>Next Steps</h3>
+                <h4>It would be nice to build a website similar to <a href="https://badluckorjustsuck.herokuapp.com/" target="_blank">this one</a> that allows people to analyze their league's draft data while also feeding a database.</h4>
+             </div>
+					</div> <!--End of Content1-->
+				</div> <!--End of Container1-->
+			</div><!--End of Light Div-->
+			<div id=Disclaimer_DarkDiv2 class="dark">
+				<div class="Container">
+					<div class="Content">
+						<div id=FinalThoughts>
+							<h2>DISCLAIMER!</h2>
+							<h3>Don't go cursing off Fantasy Football just yet...</h3>
+              <h4>Admittedly, I lied with the data. All the numbers and labels are accurate, but the conclusion is misleading. Can you figure out what it is? Feel free to contact me if you would like to know more about this research topic and what I have done <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSCq7f_dEO8ud4iNVPUMJecaXIi9B6vnlcgGoc1PvKSByq7yMNvFNsTYniLIW7Io--38nbxHvxdHlSn/pubchart?oid=1335080723&format=interactive" target="_blank">beyond what you see above.</a></h4>
+							<h4>The carts had color-coded duct tape, identifying a meat preference.</h4>
+							<div id=FoodPantryDuctTapePic style="width: 800px; height: 380px; overflow: hidden;">
+								<img src="images/FoodPantry/Incrimental2.jpg" alt="PartnershipPic2" width=800px height=800px>
+							</div>
+							<h3>Main Takeaways</h3>
+							<h4>After polling almost 20 returning clients, the consensus seemed to be an appreciation for adding this limited choice back into their service.</h4>
+							<h4>Volunteers also appreciated what they considered to be having a more caring impact.</h4>
+						</div>
+					</div> <!--End of Content-->
+				</div> <!--End of Container-->
+			</div> <!--End of DarkDiv1-->
+			<div id=FoodPantry_LightDiv3 class="light">
+				<div class="Container">
+					<div class="Content">
+						<div id=FoodPantryFinal>
+							<h2>Final Concept Design</h2>
+							<h4>Given more space, an alternate service was concieved that allows the clients multiple choices throughout their food pantry visit.</h4>
+							<div id=PowerToolRender1 style="width: 800px; height: 450px; overflow: hidden;">
+								<img src="images/FoodPantry/Overview1.jpg" alt="Campaign Trail Process" width=800px height=800px>
+							</div>	
+							<div id=PowerToolRender1 style="width: 800px; height: 232px; overflow: hidden;">
+								<img src="images/FoodPantry/ChoiceServiceFrame.jpg" alt="Campaign Trail Process" width=800px height=800px>
+							</div>
+							<div id=PowerToolRender1 style="width: 800px; height: 320px; overflow: hidden;">
+								<img src="images/FoodPantry/FoodQuantities.jpg" alt="Campaign Trail Process" width=800px height=800px>
+							</div>
+							<h4>By dividing the choices into different stations, we can reduce food waste by the client and improve food quantites by family size, all without greatly reducing the time efficiency.</h4>
+							<h3>Video</h3>
+							<iframe src="https://www.youtube.com/embed/_AuRlj8GUSo" width="800" height="450"></iframe>
+						</div>
+					</div> <!--End of Content1-->
+				</div> <!--End of Container1-->
+			</div><!--End of Light Div-->
+			<div id=FoodPantryPartnership_DarkDiv2 class="dark">
+				<div class="Container">
+					<div class="Content">
+						<div id=CampaignTrailFinalThoughts>
+							<h2>Final Thoughts</h2>
+							<h4>My main goals were to emphasize actual implementation and a mutual partnership with a local food pantry, both huge successes. During this project, I volunteered over 60 hours at BGRC and continued to volunteer there afterwards too!</h4>
+							<div id=PartnershipPic style="width: 800px; height: 360px; overflow: hidden;">
+								<img src="images/FoodPantry/FoodDrive.jpg" alt="Partnership with BGRC pic" width=800px height=800px>
+							</div>
+							<h4>During this whole project, I was raising awareness for food insecurity during the pandemic and even hosted a small food drive.</h4>
+						</div>
+					</div> <!--End of Content-->
+				</div> <!--End of Container-->
+			</div> <!--End of DarkDiv1-->
+		</div> <!--End of Main-->
+		<div id="Footer">
+			<div class="Container">
+				<p>@AugustMajtenyiWebsite <br />Copyright 2020</p>
+			</div><!--end Footer Container-->
+		</div><!--end Footer-->
+	</body>
+</html>
