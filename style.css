@@ -303,5 +303,9 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin:0px; padding:0px; }
 		text-align: left;
 	}
 	
+/*for StickFigureBoxing V2*/
+	canvas {
+ 		display: block;
+	}
 
 /*Make sure Links go to a different tab   (target="_blank")  */
