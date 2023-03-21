@@ -60,6 +60,7 @@ function preload() {
     //createCanvas(800, 500).("myCanvas")
     createCanvas(800, 500);
     canvas.style = "position:absolute; left: 50%; width: 800px; margin-left: -400px; margin-top: -730px";
+    button.style = "position:absolute; left: 50%; width: 180px; margin-left: -90px; top: 300px";
     createButtons()
   }
   
