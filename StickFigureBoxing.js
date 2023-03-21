@@ -414,13 +414,13 @@ function preload() {
       button1 = createButton('Player v Bot Game');
       button1.size(180,50)
       //button1.position(310, 225);
-      button.position($(window).width()/2 - 90,330+225)
+      button1.position($(window).width()/2 - 90,330+225)
       button1.mousePressed(start1PlayerGame);
     
       button2 = createButton('How To Play');
       button2.size(180,25)
       //button2.position(310, 400);
-      button.position($(window).width()/2 - 90,330+400)
+      button2.position($(window).width()/2 - 90,330+400)
       button2.mousePressed(showRules);    
   }
   
