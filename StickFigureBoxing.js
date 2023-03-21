@@ -56,8 +56,8 @@ function preload() {
     //let canvas = document.getElementById("myCanvas");
     //let p5Canvas = createCanvas(canvas.width, canvas.height);
      //let canvas = createCanvas(800, 500);
-     //canvas.parent("myCanvas"); // Link the canvas to the <canvas> element in the HTML
-    //createCanvas(800, 500).parent("myCanvas")
+     //canvas.("myCanvas"); // Link the canvas to the <canvas> element in the HTML
+    //createCanvas(800, 500).("myCanvas")
     createCanvas(800, 500);
     canvas.style = "position:absolute; left: 50%; width: 800px; margin-left: -400px; margin-top: -500px";
     createButtons()
@@ -402,17 +402,17 @@ function preload() {
   }
   
   function createButtons() {
-      button = createButton('Player v Player Game').parent("myCanvas");
+      button = createButton('Player v Player Game');
       button.size(180,50)
       button.position(310, 295);
       button.mousePressed(start2PlayerGame);
   
-      button1 = createButton('Player v Bot Game').parent("myCanvas");
+      button1 = createButton('Player v Bot Game');
       button1.size(180,50)
       button1.position(310, 225);
       button1.mousePressed(start1PlayerGame);
     
-      button2 = createButton('How To Play').parent("myCanvas");
+      button2 = createButton('How To Play');
       button2.size(180,25)
       button2.position(310, 400);
       button2.mousePressed(showRules);    
@@ -443,7 +443,7 @@ function preload() {
         textShown = "Fight!"
         canMoveA = true
         canMoveB = true
-          resetButton = createButton('Back to Start Screen').parent("myCanvas");
+          resetButton = createButton('Back to Start Screen');
           resetButton.size(180,25)
           resetButton.position(310, 500);
           resetButton.mousePressed(resetGame); 
@@ -533,7 +533,7 @@ function preload() {
       button.remove ()
       button1.remove ()
       button2.remove ()
-          resetButton = createButton('Back to Start Screen').parent("myCanvas");
+          resetButton = createButton('Back to Start Screen');
           resetButton.size(180,25)
           resetButton.position(310, 500);
           resetButton.mousePressed(resetGame); 
