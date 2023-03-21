@@ -57,9 +57,9 @@ function preload() {
     //let p5Canvas = createCanvas(canvas.width, canvas.height);
      //let canvas = createCanvas(800, 500);
      //canvas.parent("myCanvas"); // Link the canvas to the <canvas> element in the HTML
-    createCanvas(800, 500).parent("myCanvas")
-    //createCanvas(800, 500);
-    //canvas.style = "position:absolute; left: 50%; width: 800px; margin-left: -400px; margin-top: 500px";
+    //createCanvas(800, 500).parent("myCanvas")
+    createCanvas(800, 500);
+    canvas.style = "position:absolute; left: 50%; width: 800px; margin-left: -400px; margin-top: -500px";
     createButtons()
   }
   
