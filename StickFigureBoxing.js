@@ -61,7 +61,7 @@ function preload() {
     createCanvas(800, 500);
         canvas.style = "position:absolute; left: 50%; width: 800px; margin-left: -400px; margin-top: -750px";
     createButtons()
-        button.style = "position:absolute; left: 50%; width: 180px; margin-left: -90px; margin-top: 300px";
+        //button.style = "position:absolute; left: 50%; width: 180px; margin-left: -90px; margin-top: 300px";
 
   }
   
@@ -406,7 +406,7 @@ function preload() {
   function createButtons() {
       button = createButton('Player v Player Game');
       button.size(180,50)
-      button.position(310, 295);
+      button.style = "position:absolute; left: 50%; width: 180px; margin-left: -90px; margin-top: 300px"
       button.mousePressed(start2PlayerGame);
   
       button1 = createButton('Player v Bot Game');
