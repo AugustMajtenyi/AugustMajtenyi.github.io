@@ -405,8 +405,9 @@ function preload() {
   
   function createButtons() {
       button = createButton('Player v Player Game');
-      button.size(180,50)
-      button.style = "position:absolute; left: 50%; width: 180px; margin-left: -90px; margin-top: 300px"
+      //button.size(180,50)
+      //button.position(310,150)
+      button.style = "{position: absolute; width: 180px; Height: 50px; left: 50%; transform: translateX(-50%)}";
       button.mousePressed(start2PlayerGame);
   
       button1 = createButton('Player v Bot Game');
