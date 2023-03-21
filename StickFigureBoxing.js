@@ -53,8 +53,8 @@ function preload() {
     imageToDrawA = [P1a,P2a,P3a,P4a,P5a,P6a]
     imageToDrawB = [P1b,P2b,P3b,P4b,P5b,P6b]
         
-    const canvas = document.getElementById('myCanvas');
-
+    let canvas = document.getElementById("myCanvas");
+    let p5Canvas = createCanvas(canvas.width, canvas.height);
     //createCanvas(800, 500);
     //canvas.style = "position:absolute; left: 50%; width: 800px; margin-left: -400px; margin-top: 500px";
     createButtons() 
