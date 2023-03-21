@@ -406,18 +406,21 @@ function preload() {
   function createButtons() {
       button = createButton('Player v Player Game');
       button.size(180,50)
-      button.position($(window).width()/2,325)
+      //button2.position(310, 295);
+      button.position($(window).width()/2 - 90,330+295)
       //button.style = "{position: absolute; width: 180px; Height: 50px; left: 50%; transform: translateX(-50%)}";
       button.mousePressed(start2PlayerGame);
   
       button1 = createButton('Player v Bot Game');
       button1.size(180,50)
-      button1.position(310, 225);
+      //button1.position(310, 225);
+      button.position($(window).width()/2 - 90,330+225)
       button1.mousePressed(start1PlayerGame);
     
       button2 = createButton('How To Play');
       button2.size(180,25)
-      button2.position(310, 400);
+      //button2.position(310, 400);
+      button.position($(window).width()/2 - 90,330+400)
       button2.mousePressed(showRules);    
   }
   
@@ -448,7 +451,8 @@ function preload() {
         canMoveB = true
           resetButton = createButton('Back to Start Screen');
           resetButton.size(180,25)
-          resetButton.position(310, 500);
+          //resetButton.position(310, 500);
+          resetButton.position($(window).width()/2 - 90,330+500)
           resetButton.mousePressed(resetGame); 
   }
   
@@ -538,7 +542,8 @@ function preload() {
       button2.remove ()
           resetButton = createButton('Back to Start Screen');
           resetButton.size(180,25)
-          resetButton.position(310, 500);
+          //resetButton.position(310, 500);
+          resetButton.position($(window).width()/2 - 90,330+500)
           resetButton.mousePressed(resetGame); 
   
   }
