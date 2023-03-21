@@ -55,7 +55,7 @@ function preload() {
         
     const canvas = document.getElementById('myCanvas');
 
-    createCanvas(800, 500);
+    //createCanvas(800, 500);
     //canvas.style = "position:absolute; left: 50%; width: 800px; margin-left: -400px; margin-top: 500px";
     createButtons() 
   }
