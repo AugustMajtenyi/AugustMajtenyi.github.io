@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+	<head>
+		<title>August's World Health Report and Immigration in R</title>
+		<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	</head>
+	
+	<body>
+		<div id="Main">
+			<div class="Container">
+				<div id="Header">
+					<div id="Logo">
+						<h2>Logo</h2>
+					</div><!--end of Logo-->
+					
+					<div id="Title">
+						<h1>August Majtenyi</h1>
+					</div>
+					<div style="clear:both"></div>
+					<ul id="NavigationBar"> <!--the # should be where the link goes, currently to the top of the page)-->
+						<li><a href="index.html">About Me</a></li>
+						<li><a href="PortfolioPage.html">Portfolio</a></li>
+						<li><a href="TimelinePage.html#Present">Timeline</a></li>
+						<li><a href="index.html#Contact_Me">Contact Me</a></li>						
+					</ul>
+					<div style="clear:both"></div>
+				</div><!--end Header -->
+				<div class="Content">
+					<h2>The Relationship between <br> Happiness and Immigration</h2>
+					<div id="FFLSOverviewPic" style="width: 800px; height: 400px; overflow: hidden">
+						<img src="images/WHR-Immigration/Overview.png" alt="Overview Pic" width=800px>
+					</div>
+					<div id="World Happiness Report R">
+						<br>
+						<h4><b>Context:  </b>This informal study demonstrates my learning R and RStudio.</h4>
+						<h4><b>Objective:  </b>Use disparate datasets to identify trends and correlations in Immigration and happiness.</h4>	
+						<p><b>Links to the Datasets:  </b>World Happiness Reports (<a href="https://www.kaggle.com/datasets/unsdsn/world-happiness" target="_blank">2015-2019</a>, and <a href="https://www.kaggle.com/datasets/londeen/world-happiness-report-2020" target="_blank">2020</a>) <br> and corresponding <a href="https://www.kaggle.com/datasets/patrasaurabh/global-asylum-data-2000-present" target="_blank">Immigration Data</a></p>
+						<br/>
+					</div>
+				</div>
+			</div>
+			<div id=FFluckVskill_DarkDiv class="dark">
+				<div class="Container">
+					<div class="Content">
+						<div id=Context>
+							<h2>Combining the Data</h2>
+							<!-- <h4>View my initial code</h4> -->
+							<p>The files were <em>not</em> easily transferrable. A had to manually edit a handful country/region names. The merged dataframe contains <b>899 observations</b> of <b>157 unique countries</b> representing<br><b>10 regions</b> around the world. Below is a quick representation of the data:</p>
+							<br/>
+							<div id="RepresentationGraphics" style="width: 800px; height: 820px; overflow: hidden;">
+								<img src="images/WHR-Immigration/DataByYear_Bar.png" alt="Year Count Bar Chart" width=397x height=200px>
+								<img src="images/WHR-Immigration/HappinessFrequency.png" alt="Happiness Histogram" width=397px height=200px>
+								<img src="images/WHR-Immigration/DataByYear_Box.png" alt="Yearly Happiness Box and Whisker Plot" width=397px height=200px>
+								<img src="images/WHR-Immigration/ImmigrantsByYear_Bar.png" alt="Immigrants Accepted By Year Bar Chart" width=397px height=200px>
+								<img src="images/WHR-Immigration/DataByRegion_Bar3.png" alt="Immigrants Accepted By Region Bar Chart" width=800px height=400px>
+							</div>
+							<p>Note: There is a overall rise in Median Happiness Scores from year-to-year (Yay!)</p>
+						</div>
+					</div> <!--End of Content-->
+				</div> <!--End of Container-->
+			</div> <!--End of DarkDiv-->
+			<div id=SharedKnowledge="light">
+			<div class="Container">
+					<div class="Content">
+						<div id=SharedKnowledgeChart >
+							<h2>Initial Evaluation</h2>
+							<div id=SharedKnowledgeChart1 style="width: 800px; height: 280px; overflow: hidden;">
+								<img src="images/WHR-Immigration/AcceptedImmHappiness_Scat.png" alt="Accepted Immigration + Happiness Scatterplot" width=263px height=263px>
+								<img src="images/WHR-Immigration/EmigrantsHappiness_Scat.png" alt="Emigrants + Happiness Scatterplot" width=262px height=263px>
+								<img src="images/WHR-Immigration/RejectedImmHappiness_Scat.png" alt="Rejected Immigration + Happiness Scatterplot" width=263px height=263px>
+							</div>
+							<p><b>The Charts show just about what you'd expect:</b><br>
+							Immigrants are going to 'happier' countries and emigrating from less happy countries. From this trend, it follows that 'happier' countries also have higher counts of Rejecting Immigrants.</p>
+							<br>
+							<p><b><em>Let's go deeper</em></b></p>
+							<br>
+							<h3>The Ratio of Accepted vs. Rejected Immmigration Decisions</h3>
+							<br>
+							<div id=SharedKnowledgeChart1 style="width: 800px; height: 300px; overflow: hidden;">
+								<img src="images/WHR-Immigration/ImmRatioHappiness_Scat.png" alt="Immigration Acceptance Ratio + Happiness Scatterplot" width=397px height=300px>
+								<img src="images/WHR-Immigration/ImmRatioHappinessByRegion_Scat4.png" alt="Immigration Acceptance Ratio + Happiness Scatterplot by Region" width=397 height=300px>
+							</div>
+							<br>
+							<P><b>Analysis</b></p>
+							<p>Overall, there is a negative correlation <b>(r = -0.192)</b> between Immigration Acceptance Percentage and the World Happiness Scores for countries. </p>
+							<br>
+							<p>The scatterplot by region was particularly interesting to me.
+								The <b>3 lines of regression at the top</b> stand out from the other regions.
+								From top to bottom respectively, they belong to <b>Australia and New Zealand</b>, <b>North America</b>, and <b>Western Europe</b>.
+								These happen to also be the only three regions where all countries have positive migration population.
+							<br>
+							<em>This me leads to a new question...</em></p>
+							<br>
+							<h4><b>Is there a significant relationship</b> between Happiness and Immigration Acceptance Ratio <b>with Positive Migration Regions?</b></h4>
+							<br>
+						</div>
+					</div> <!--End of Content1-->
+				</div> <!--End of Container1-->
+			</div><!--End of Light Div-->
+			<div style="clear:both"></div>
+			<div id=FFluckVskillBadGraph_DarkDiv1 class="dark">
+				<div class="Container">
+					<div class="Content">
+						<div id=BadGraph>
+							<h2>Positive, but not Certain</h2>
+							<div id=BadGraph style="width: 800px; height: 300px; overflow: hidden;">
+								<img src="images/WHR-Immigration/ImmRatioHappiness_3Region_Scat2.png" alt="Immigration Acceptance Ratio + Happiness Scatterplot For 3 Regions" width=582px height=300px>
+								<img src="images/WHR-Immigration/ImmRatioCor_Chart.png" alt="Happiness and Correlation chart for 3 region" width=212 height=300px>
+							</div>
+							<br/>
+							<p>From the scatterlplot above, we see a <b>positive correlation</b> between Immigration Acceptance Ratio and Happiness,
+							 but with a pearson correlation of <b>r = .107</b>, it is not significant <b>(p=.203)</b></p>
+							</br>
+							<h3>Finding Significance</h3>
+							<br>
+							<div id=BadGraph style="width: 800px; height: 250px; overflow: hidden;">
+								<img src="images/WHR-Immigration/GenImmRatio_DistCor_Hist.png" alt="Immigration Acceptance Ratio + Happiness Scatterplot For 3 Regions" height=249px>
+								<img src="images/WHR-Immigration/GenImmRatio_Scat.png" alt="Happiness and Correlation chart for 3 region"  height=249px>
+							</div>
+							<br/>
+							<p>There is however, a significant correlation to be found. Generosity Score, which is determined by how much a country donates to charity, has a <b>p-value of .006</b> (shown from the histogram above)</p>
+							</br>
+							<br>
+             			</div>
+					</div> <!--End of Content-->
+				</div> <!--End of Container-->
+			</div> <!--End of DarkDiv1-->
+			<div id=CliffHanger_LightDiv2 class="light">
+				<div class="Container">
+					<div class="Content">
+						<div id=EndOfStory>
+							<h2>Reflection</h2>
+              				<h3><b>The hidden bias of data analysis</b></h3>
+							<p>I found a correlation that was significant, but at what cost?
+							 The original data showed a negative correlation, but <b>I narrowed the data</b> and found a positive one.
+							 <b>Was it justified?</b>
+							 I'm sure I could easily have analyzed the same data in a different way to find a totally different conclusion.</p>
+							<br/>
+							<h3>Research Limitations</h3>
+							<p>Continuing this research with different recent years could test the validity of the trends I found.
+							 Also, region organization greatly impacted on my findings (Ex: Mexico was not in North America). This categorization is from the World Happiness Report; I'm not sure how they decided this.</p>
+							<br/>
+							<h3>Next Steps</h3>
+                				<p>I would like to <b>develop my skills in R/Rstudio</b>. I would like exposure to different packages and control structures. Coming back to this data after gaining more experience could prove useful.</p>
+							<br>
+						</div>
+					</div> <!--End of Content1-->
+				</div> <!--End of Container1-->
+			</div><!--End of Light Div-->
+		</div> <!--End of Main-->
+		<div id="Footer">
+			<div class="Container">
+				<p>@AugustMajtenyiWebsite <br/>Copyright 2020</p>
+			</div><!--end Footer Container-->
+		</div><!--end Footer-->
+	</body>
+</html>
