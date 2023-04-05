@@ -627,3 +627,16 @@ function preload() {
       square(620,452,30,5)
     
   }
+
+
+
+  function windowResized() {
+        if (startScreen) {
+            button.position($(window).width()/2 - 90,340+295)
+            button1.position($(window).width()/2 - 90,340+225)
+            button2.position($(window).width()/2 - 90,340+400)
+        }
+        if (ruleScreen || PvP || PvC) {
+            resetButton.position($(window).width()/2 - 90,340+500)
+        }  
+  }
