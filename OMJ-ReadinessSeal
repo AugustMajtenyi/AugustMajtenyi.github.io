@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+	<head>
+		<title>August's OJM Instrument</title>
+		<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	</head>
+	
+	<body>
+		<div id="Main">
+			<div class="Container">
+				<div id="Header">
+					<div id="Logo">
+						<h2>Logo</h2>
+					</div><!--end of Logo-->
+					
+					<div id="Title">
+						<h1>August Majtenyi</h1>
+					</div>
+					<div style="clear:both"></div>
+					<ul id="NavigationBar"> <!--the # should be where the link goes, currently to the top of the page)-->
+						<li><a href="index.html">About Me</a></li>
+						<li><a href="PortfolioPage.html">Portfolio</a></li>
+						<li><a href="TimelinePage.html#Present">Timeline</a></li>
+						<li><a href="index.html#Contact_Me">Contact Me</a></li>						
+					</ul>
+					<div style="clear:both"></div>
+				</div><!--end Header -->
+				<div class="Content">
+					<h2>Fantasy Football</h2>
+					<div id="NoboProject" style="width: 800px; height: 400px; overflow: hidden">
+						<img src="images/FantasyFootball/Overview.jpg" alt="Overview Pic" width=800px height=800px>
+					</div>
+					<div id=FFOverview>
+						<h4><b>Overview:  </b>Fantasy Football is perhaps my most time-consuming hobby. I have been in a league with my High School friends since 2015! We even have a <a href="https://pasca89.wixsite.com/afootballfantasy" target="blank">league website</a>.</h4>
+						<h4><b>Commissioner:  </b>Michael Pasca</h4>
+						<h4><b>League Members:  </b>Ian Pearlswig, Connor Finnegan, Kurt Steinke, David Flowers, Dominic Rodts, Darren Murphy, Kelly McClendon, Grafton Potter, Matt Kress, Brody Rodgerson, and August Majtenyi</h4>
+						<br/>
+					</div>
+				</div>
+			</div>
+			<div id=FF_DarkDiv class="dark">
+				<div class="Container">
+					<div class="Content">
+						<div id=MyContributions>
+							<h2>My Contributions</h2>
+							<h3>League trophy</h3>
+							<div id=TrophyPic style="width: 800px; height: 432px; overflow: hidden">
+								<img src="images/FantasyFootball/Trophy.jpg" alt="Nobo Research Picture 1" width=800px height=800px>
+							</div>
+							<p>I created it, but have yet to earn it.</p>
+							<br/><br/>
+							<h3>Articles</h3>
+							<div id=FFArticlePic style="width: 800px; height: 292px; overflow: hidden">
+								<img src="images/FantasyFootball/Article.jpg" alt="FF Article Charts" width=800px height=800px>
+							</div>
+							<p>Myself and a few other leaguemates have written <a href="https://pasca89.wixsite.com/afootballfantasy/tips-and-tricks" target="blank">Fantasy Football Advice Articles</a>.</p>
+							<br/><br/>
+							<h3>League Pick-ems</h3>
+							<div id=LeaguePickemsPic style="width: 800px; height: 313px; overflow: hidden">
+								<img src="images/FantasyFootball/Pickems.jpg" alt="FF Article Charts" width=800px height=800px>
+							</div>
+							<p>I even created a formula that allows league members to bet FAAB money on <a href="https://pasca89.wixsite.com/afootballfantasy/news" target="blank">Weekly Matchups</a>.</p>
+						</div>	
+					</div> <!--End of Content-->
+				</div> <!--End of Container-->
+			</div> <!--End of DarkDiv-->
+			<div id=Nobo_LightDiv1 class="light">
+			<div class="Container">
+					<div class="Content">
+						<div id=NoboProcess>
+							<h2>Defensive Schemes</h2>
+							<p>Defensive Schemes are a new rule being implemented in our league that offers the oppurtunity to limit the opposing team's scoring each week.</p>
+							<br/>
+							<div id=FFProcessPic1 style="width: 800px; height: 440px; overflow: hidden;">
+								<img src="images/FantasyFootball/DefenseDiagram.jpg" alt="FF Chart Picture" width=800px height=800px>
+							</div>
+							
+							<br/><br/>
+							<h3>Process</h3>
+							<br/>
+							<div id=FFProcessPic2 style="width: 800px; height: 290px; overflow: hidden;">
+								<img src="images/FantasyFootball/AverageSchemes.jpg" alt="FF Picture" width=800px height=800px>
+							</div>
+							<p>Averages from the 2019 season were used to calculate schemes that are enticing, fair, and similar to actual NFL football strategies. Then we used past Fantasy Football Match-ups to refine and perfect our schemes.</p>
+							<br/>
+							<div id=FFProcessPic2 style="width: 800px; height: 505px; overflow: hidden;">
+								<img src="images/FantasyFootball/AverageSchemes2.jpg" alt="RR Renders Picture" width=800px height=800px>
+							</div>
+						</div>
+					</div> <!--End of Content1-->
+				</div> <!--End of Container1-->
+			</div><!--End of Light Div-->
+			<div id=Nobo_DarkDiv1 class="dark">
+				<div class="Container">
+					<div class="Content">
+						<div id=NoboRenders>
+							<h2>Final Scheme Graphics</h2>
+								<ul id="SchemeList" class="tiles">
+									<li id="Lockdown"><img src="images/FantasyFootball/Lockdown.jpg" alt="Lockdown Tile"</li>
+									<li id="Fantasyfootball"><img src="images/FantasyFootball/StackedBox.jpg" alt="Fantasy Football Tile"</li>
+									<li id="CampaignTrail"><img src="images/FantasyFootball/Cover3.jpg" alt="Campaign Trail Tile"</li>
+									<li id="CircuitSoccer"><img src="images/FantasyFootball/Cover2.jpg" alt="Circuit Soccer Tile"</li>
+									<li id="Fantasyfootball"><img src="images/FantasyFootball/Tampa2.jpg" alt="Fantasy Football Tile"</li>
+									<li id="CircuitSoccer"><img src="images/FantasyFootball/FieldPosition.jpg" alt="Circuit Soccer Tile"</li>
+									<li id="Fantasyfootball"><img src="images/FantasyFootball/QBContain.jpg" alt="Fantasy Football Tile"</li>
+									<li id="CampaignTrail"><img src="images/FantasyFootball/DimeNDisguise.jpg" alt="Campaign Trail Tile"</li>
+									<li id="CampaignTrail"><img src="images/FantasyFootball/ProtectTheSticks.jpg" alt="Campaign Trail Tile"</li>
+									<li id="blanktile"><img src="images/ProjectTiles/BlankDark.jpg"></li>
+									<li id="CampaignTrail"><img src="images/FantasyFootball/GoalLineDefense.jpg" alt="Campaign Trail Tile"</li>
+									<li><p>Note: this is a league with .5 points per first down, and no Points Per Reception (PPR). Current schemes were made specifically for this scoring format.</p></li>
+								</ul>
+							</div>
+							<div style="clear:both"></div>
+						</div>	
+					</div> <!--End of Content-->
+				</div> <!--End of Container-->
+			</div> <!--End of DarkDiv1-->
+		</div> <!--End of Main-->
+		<div id="Footer">
+			<div class="Container">
+				<p>@AugustMajtenyiWebsite <br />Copyright 2020</p>
+			</div><!--end Footer Container-->
+		</div><!--end Footer-->
+	</body>
+</html>
