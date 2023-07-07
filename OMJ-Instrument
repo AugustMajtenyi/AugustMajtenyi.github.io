@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+	<head>
+		<title>August's OJM Instrument</title>
+		<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	</head>
+	
+	<body>
+		<div id="Main">
+			<div class="Container">
+				<div id="Header">
+					<div id="Logo">
+						<h2>Logo</h2>
+					</div><!--end of Logo-->
+					
+					<div id="Title">
+						<h1>August Majtenyi</h1>
+					</div>
+					<div style="clear:both"></div>
+					<ul id="NavigationBar"> <!--the # should be where the link goes, currently to the top of the page)-->
+						<li><a href="index.html">About Me</a></li>
+						<li><a href="PortfolioPage.html">Portfolio</a></li>
+						<li><a href="TimelinePage.html#Present">Timeline</a></li>
+						<li><a href="index.html#Contact_Me">Contact Me</a></li>						
+					</ul>
+					<div style="clear:both"></div>
+				</div><!--end Header -->
+				<div class="Content">
+					<h2>Instrument Measuring OMJ Readiness</h2>
+					<div id="NoboProject" style="width: 800px; height: 400px; overflow: hidden">
+						<img src="images/OMJ-Instrument/OMJ-Seal.png" alt="Overview Pic" width=800px height=800px>
+					</div>
+					<div id=OMJOverview>
+						<h4><b>Overview:  </b>Create an instrument that measures student improvement with regards to the <a href="https://education.ohio.gov/getattachment/Topics/Ohio-s-Graduation-Requirements/Ohio%E2%80%99s-Graduation-Requirements/Graduation-Seals/OhioMeansJobs-Readiness-Seal/OMJ_ReadinessSeal_Rubric.pdf.aspx?lang=en-US" target="blank">OMJ Readiness Rubrik</a>.</h4>
+						<h4><b>Context:  </b>Data is retrieved from 34 students in Metro High School during the 2022-2023 school year.</h4>
+						<br/>
+					</div>
+				</div>
+			</div>
+			<div id=FF_DarkDiv class="dark">
+				<div class="Container">
+					<div class="Content">
+						<div id=MyContributions>
+							<h2>Initial Instrument Analysis</h2>
+							<h3>Pre-survey Data</h3>
+							<p>Students were given both the created instrument as well as a baseline survey. The baseline survey asks each student to rate themselves from "Expert" to "Beginner" in the different categories. The OMJ instrument gives each student a specific scenario and asks how they would act. Each answer option corresponds to a different level of proficiency.</p>
+							<div id=TrophyPic style="width: 800px; height: 432px; overflow: hidden">
+								<img src="images/OMJ-Instrument/Pre-Baseline.png" alt="OMJ+Baseline Chart" width=800px height=800px>
+							</div>
+							<p>When comparing these two surveys, it appears that the OMJ instrument rates students lower on average than the baseline survey. I originally believed this to be a good thing because it offers kids more room to grow when comparing their post-survey results.</p>
+							<br/><br/>
+							<h3>Pre/Post Charts</h3>
+							<div id=OMJ-Chart1 style="width: 800px; height: 292px; overflow: hidden">
+								<img src="images/OMJ-Instrument/Pre+Post.png" alt="FF Article Charts" width=800px height=800px>
+							</div>
+							<div id=OMJ-Chart style="width: 800px; height: 292px; overflow: hidden">
+								<img src="images/OMJ-Instrument/Pre-Post-3cat.png" alt="FF Article Charts" width=800px height=800px>
+							</div>
+							<div id=OMJ-Chart style="width: 800px; height: 292px; overflow: hidden">
+								<img src="images/OMJ-Instrument/Pre-Post.png" alt="FF Article Charts" width=800px height=800px>
+							</div>
+							<p>Overall there was not significant change between pre and post survey results. There multiple speculations of why this is. The survey was a total of 47 items (way too long). Additionally, answer choices between these questions did not always have clear delineations. Lastly, students are encouraged throughout the year use metacognition as a way of acknowledging their mistakes and improving on them. This could have led to students being more ciritcal on themselves in a way that makes growth seem negligible through this instrument.</p>
+							<br/><br/>
+							<h3>Example Questions</h3>
+							<div id=LeaguePickemsPic style="width: 800px; height: 313px; overflow: hidden">
+								<img src="images/OMJ-Instrument/Question-Example.png" alt="FF Article Charts" width=800px height=800px>
+							</div>
+							<h3>Next Steps</h3>
+							<p>Changes will be made to this instrument so that it is shorter and has more clarity. It will then need to be retested.</p>
+						</div>	
+					</div> <!--End of Content-->
+				</div> <!--End of Container-->
+			</div> <!--End of DarkDiv-->
+		</div> <!--End of Main-->
+		<div id="Footer">
+			<div class="Container">
+				<p>@AugustMajtenyiWebsite <br />Copyright 2020</p>
+			</div><!--end Footer Container-->
+		</div><!--end Footer-->
+	</body>
+</html>
